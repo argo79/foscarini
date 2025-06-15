@@ -13,7 +13,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // Nome del dispositivo, che sarà la prima parte del topic
-const char* deviceName = "fosca2";  //     <---------------------------Cambia questo valore per ogni dispositivo
+const char* deviceName = "fosca1";  //     <---------------------------Cambia questo valore per ogni dispositivo
 
 // Costruzione dei topic MQTT
 String ledTopic = String(deviceName) + "/lab/led";
